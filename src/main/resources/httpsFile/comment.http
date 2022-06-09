@@ -1,0 +1,28 @@
+POST http://localhost:8080/comment/create
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NTQzMzgwMjAsImV4cCI6MTY1NDY5ODAyMCwiaXNzIjoiTWF6Z2kgcHJvZHVjdGlvbiIsImlkIjo1fQ.x5ob9iPmXEl1PffNoxBeYYZLurc5TMY-dSXfjCjF5qI
+
+
+{
+  "content": "Voy blin",
+  "login": "xumoyun",
+  "password": 123456,
+  "postId":2
+
+}
+
+###
+
+GET http://localhost:8080/comment/list/2
+
+###
+PUT http://localhost:8080/comment/update/2
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NTQzMzgwMjAsImV4cCI6MTY1NDY5ODAyMCwiaXNzIjoiTWF6Z2kgcHJvZHVjdGlvbiIsImlkIjo1fQ.x5ob9iPmXEl1PffNoxBeYYZLurc5TMY-dSXfjCjF5qI
+
+{
+  "content": "Unaqa yozma"
+}
+
+###
+DELETE http://localhost:8080/comment/delete/1

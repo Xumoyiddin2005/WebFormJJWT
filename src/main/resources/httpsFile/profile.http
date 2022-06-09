@@ -1,0 +1,22 @@
+POST http://localhost:8080/profile/create
+Content-Type: application/json
+
+{
+  "name": "xvcbx",
+  "surname": "fgbfxgbf",
+  "login": "qwert",
+  "password": 123456
+}
+
+###
+GET http://localhost:8080/profile/list/5
+###
+PUT http://localhost:8080/profile/update/4
+Content-Type: application/json
+
+{
+  "name": "Eldorbek",
+  "surname": "Xolmo'minov"
+}
+###
+DELETE http://localhost:8080/profile/delete/4

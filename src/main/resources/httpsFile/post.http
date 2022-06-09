@@ -1,0 +1,27 @@
+POST http://localhost:8080/post/create
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NTQ2Mjc1NTksImV4cCI6MTY1NDk4NzU1OSwiaXNzIjoiTWF6Z2kgcHJvZHVjdGlvbiIsImlkIjo2fQ.OVHNw0cp32pXGkGNVEWuWzgxbZquo4R6mt9cZfObnkE
+
+{
+  "title": "Buxanka",
+  "content": "Juda qimmatku",
+  "login": "qwert",
+  "password": 123456
+}
+
+###
+GET http://localhost:8080/post/list/1
+###
+PUT http://localhost:8080/post/update/1
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NTQzMzgwMjAsImV4cCI6MTY1NDY5ODAyMCwiaXNzIjoiTWF6Z2kgcHJvZHVjdGlvbiIsImlkIjo1fQ.x5ob9iPmXEl1PffNoxBeYYZLurc5TMY-dSXfjCjF5qI
+
+{
+  "title": "Mazgi",
+  "content": "Mazgayob",
+  "login": "xumoyun",
+  "password": 123456
+}
+
+###
+DELETE http://localhost:8080/post/delete/1
